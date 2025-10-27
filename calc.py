@@ -17,7 +17,7 @@ calc_type = st.sidebar.selectbox(
     ["User defined descriptors", "Selected RDKit descriptors", "All RDKit descriptors"]
 )
 
-run_button = st.sidebar.button("🚀 Run Prediction")
+run_button = st.sidebar.button("🚀 Run")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("**About:** This app calculates RASAR descriptors for training and test datasets based on the Gaussian Kernel similarity function.")
@@ -118,3 +118,4 @@ with footer_col3:
     st.markdown("- [Banerjee & Roy, Mol. Divers.](https://doi.org/10.1007/s11030-022-10478-6)")
     st.markdown("- [Banerjee & Roy, Chem. Res. Toxicol.](https://doi.org/10.1021/acs.chemrestox.2c00374)")
     st.markdown("- [Banerjee & Roy, Chem. Res. Toxicol.](https://doi.org/10.1021/acs.chemrestox.3c00155)")
+
